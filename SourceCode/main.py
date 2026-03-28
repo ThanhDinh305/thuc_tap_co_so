@@ -8,7 +8,7 @@
     2. Mở app → kéo xuống → bấm "Start server"
     3. App hiện địa chỉ VD: http://192.168.1.5:8080
     4. Điền IP đó vào PHONE_IP bên dưới
-    5. python fruit_detection_ipwebcam.py
+    5. python main.py
 ============================================================
 """
 
