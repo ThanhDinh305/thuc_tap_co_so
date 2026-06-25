@@ -1,4 +1,3 @@
-..
 # 🍎 FruitAI — Hệ Thống Nhận Diện Trái Cây Bằng AI
 
 **FruitAI** là ứng dụng web full-stack sử dụng trí tuệ nhân tạo để nhận diện trái cây qua ảnh tải lên hoặc webcam trực tiếp. Hệ thống phân tích tên loại quả, độ chín và cung cấp thông tin dinh dưỡng chi tiết.

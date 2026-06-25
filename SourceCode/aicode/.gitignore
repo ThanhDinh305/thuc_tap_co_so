@@ -1,0 +1,40 @@
+# ── Dependencies ─────────────────────────────
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Environment variables (KHÔNG commit lên Git!) ─
+.env
+backend/.env
+ai_service/.env
+
+# ── Model weights (file lớn, dùng Git LFS hoặc tải riêng) ─
+*.pt
+*.pth
+*.onnx
+
+# ── Uploaded images ──────────────────────────
+backend/uploads/
+ai_service/uploads/
+
+# ── Build output ─────────────────────────────
+frontend/dist/
+frontend/build/
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs/
+
+# ── OS / Editor ──────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Database dumps ───────────────────────────
+*.sql.bak

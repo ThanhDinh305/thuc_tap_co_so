@@ -1,0 +1,24 @@
+# ── Core AI Framework ─────────────────────────────────────────
+# PyTorch — bắt buộc để chạy YOLOv8 (CPU version)
+# Nếu máy có GPU NVIDIA, xem hướng dẫn tại https://pytorch.org để cài bản CUDA
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── YOLOv8 ────────────────────────────────────────────────────
+ultralytics==8.2.79
+
+# ── Image Processing ──────────────────────────────────────────
+opencv-python==4.10.0.84
+Pillow==10.4.0
+numpy==1.26.4
+
+# ── Flask Web Server ──────────────────────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+
+# ── Utilities (kéo theo bởi ultralytics nhưng liệt kê rõ) ────
+scipy>=1.7.0
+requests>=2.28.0
+matplotlib>=3.3.0
+PyYAML>=5.3.1
+tqdm>=4.64.0
